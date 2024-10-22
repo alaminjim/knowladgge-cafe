@@ -1,52 +1,42 @@
 [
   {
     "id": 1,
-    "cover_img": "https://i.ibb.co.com/XbVcmDV/aerial-view-man-using-computer-laptop-wooden-table.jpg",
+    "cover_img": "https://i.ibb.co.com/2hJgJg1/1.jpg",
     "title": "The Rise of AI in Healthcare",
     "author": "John Doe",
-    "author_img": "https://example.com/images/author1.jpg",
+    "author_img": "https://i.ibb.co.com/LYcqypJ/boy1.png",
     "posted_date": "2024-10-22",
     "reading_time": "8 min read",
     "hashtag": ["AI", "Healthcare", "Technology"]
   },
   {
     "id": 2,
-    "cover_img": "https://i.ibb.co.com/2KFRyV7/young-female-inventor-creating-her-workshop.jpg",
+    "cover_img": "https://i.ibb.co.com/b12zJNH/2.png",
     "title": "Understanding Quantum Computing",
     "author": "Jane Smith",
-    "author_img": "https://example.com/images/author2.jpg",
+    "author_img": "https://i.ibb.co.com/j4Ds5k7/girl2.jpg",
     "posted_date": "2024-10-20",
     "reading_time": "10 min read",
     "hashtag": ["Quantum Computing", "Physics", "Tech"]
   },
   {
     "id": 3,
-    "cover_img": "https://i.ibb.co.com/wLMxYhw/programming-background-with-person-working-with-codes-computer.jpg",
+    "cover_img": "https://i.ibb.co.com/3RSmzXQ/3.png",
     "title": "Sustainable Energy Solutions for 2025",
     "author": "Alice Johnson",
-    "author_img": "https://example.com/images/author3.jpg",
+    "author_img": "https://i.ibb.co.com/5Wg8pt0/girl1.jpg",
     "posted_date": "2024-10-18",
     "reading_time": "12 min read",
     "hashtag": ["Sustainability", "Energy", "Environment"]
   },
   {
     "id": 4,
-    "cover_img": "https://i.ibb.co.com/HYwhy3J/programming-background-with-person-working-with-codes-computer-1.jpg",
+    "cover_img": "https://i.ibb.co.com/3F32Y1h/4.jpg",
     "title": "Exploring the Depths of the Ocean",
     "author": "Michael Lee",
-    "author_img": "https://example.com/images/author4.jpg",
+    "author_img": "https://i.ibb.co.com/5B9Tv0J/boy2.jpg",
     "posted_date": "2024-10-15",
     "reading_time": "7 min read",
     "hashtag": ["Oceanography", "Science", "Exploration"]
-  },
-  {
-    "id": 5,
-    "cover_img": "https://i.ibb.co.com/MCt2hQf/drone-spraying-fertilizer-vegetable-green-plants-agriculture-technology-farm-automation.jpg",
-    "title": "Blockchain Beyond Cryptocurrency",
-    "author": "Emily Davis",
-    "author_img": "https://example.com/images/author5.jpg",
-    "posted_date": "2024-10-12",
-    "reading_time": "9 min read",
-    "hashtag": ["Blockchain", "Technology", "Finance"]
   }
 ]
