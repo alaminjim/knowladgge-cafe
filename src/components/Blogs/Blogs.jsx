@@ -6,12 +6,11 @@ const Blogs = () => {
   useEffect(() => {
     fetch("blogs.json")
       .then((res) => res.json())
-      .then((data) => console.log(data))
-      .catch((err) => console.error(err));
+      .then((data) => setBlogs(data));
   }, []);
   return (
-    <div>
-      <h1 className="text-lg font-extrabold">Knowledge Cafe</h1>
+    <div className="md:w-2/3">
+      <h1 className="text-3xl">Blogs:{blogs.length}</h1>
     </div>
   );
 };
