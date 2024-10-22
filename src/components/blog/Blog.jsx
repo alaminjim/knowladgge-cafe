@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { PiBookmarkSimple } from "react-icons/pi";
 
-const Blog = ({ blog, handelToBookMark }) => {
+const Blog = ({ blog, handelToBookMark, handelReading }) => {
   const {
     cover_img,
     title,
@@ -10,9 +10,10 @@ const Blog = ({ blog, handelToBookMark }) => {
     posted_date,
     reading_time,
     hashtag,
+    id,
   } = blog;
   return (
-    <div className="mb-20">
+    <div className="mb-20 space-y-2">
       <img
         className="w-full"
         src={cover_img}
@@ -27,7 +28,7 @@ const Blog = ({ blog, handelToBookMark }) => {
           </div>
         </div>
         <div className="p-2">
-          {reading_time}
+          <span>{reading_time}</span>
           <button
             onClick={() => handelToBookMark(blog)}
             className="ml-2 mt-2 text-xl"
@@ -45,6 +46,12 @@ const Blog = ({ blog, handelToBookMark }) => {
           </a>{" "}
         </h3>
       ))}
+      <button
+        className="text-purple-700 underline"
+        onClick={() => handelReading(reading_time, id)}
+      >
+        Mark As Read
+      </button>
     </div>
   );
 };
@@ -52,6 +59,7 @@ const Blog = ({ blog, handelToBookMark }) => {
 Blog.propTypes = {
   blog: PropTypes.object.isRequired,
   handelToBookMark: PropTypes.func.isRequired,
+  handelReading: PropTypes.func.isRequired,
 };
 
 export default Blog;

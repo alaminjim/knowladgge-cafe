@@ -11,12 +11,23 @@ function App() {
     const newBookMark = [...bookmarks, blog];
     setBookmarks(newBookMark);
   };
+  const [reading, setReading] = useState(0);
+  const handelReading = (time, id) => {
+    console.log(time);
+    let readingTime = reading + time;
+    setReading(readingTime);
+    const remaingBookMark = bookmarks.filter((bookmark) => bookmark.id !== id);
+    setBookmarks(remaingBookMark);
+  };
   return (
     <>
       <Header></Header>
       <div className="md:flex max-w-6xl mx-auto">
-        <Blogs handelToBookMark={handelToBookMark}></Blogs>
-        <Bookmark bookmarks={bookmarks}></Bookmark>
+        <Blogs
+          handelToBookMark={handelToBookMark}
+          handelReading={handelReading}
+        ></Blogs>
+        <Bookmark reading={reading} bookmarks={bookmarks}></Bookmark>
       </div>
     </>
   );
