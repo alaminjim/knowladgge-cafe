@@ -1,9 +1,10 @@
 import "./App.css";
+import Blogs from "./components/Blogs/Blogs";
 
 function App() {
   return (
     <>
-      <h1>Knowledge Cafe</h1>
+      <Blogs></Blogs>
     </>
   );
 }
